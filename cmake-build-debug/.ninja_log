@@ -1,0 +1,9 @@
+# ninja log v5
+2	735	6992170260828905	CMakeFiles/CNN_with_cpp.dir/main.cpp.obj	5a51707cef39539c
+0	135	6992922402927798	build.ninja	b7d1cd866fac0a78
+735	828	6992170261739110	CNN_with_cpp.exe	6a551788174ed36d
+9	1083	6993409703285607	CMakeFiles/CNN_with_cpp.dir/src/cnn/tensor.cpp.obj	1bd4e484c6eefc07
+2	1088	6993409703335623	CMakeFiles/CNN_with_cpp.dir/main.cpp.obj	5a51707cef39539c
+1088	1303	6993409705456097	CNN_with_cpp.exe	344508bc56832de1
+3	1716	6993412231372839	CMakeFiles/CNN_with_cpp.dir/main.cpp.obj	5a51707cef39539c
+1717	1820	6993412232393070	CNN_with_cpp.exe	344508bc56832de1
