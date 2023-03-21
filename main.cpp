@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstring>
+#include "./src/cnn/pipeline.h"
 #include <opencv2/opencv.hpp>
 
 #include "./src/cnn/tensor.h"
