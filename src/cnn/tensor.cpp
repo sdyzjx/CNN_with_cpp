@@ -29,7 +29,7 @@ cv::Mat Tensor3D::tensor_mat(const int CH) const{
         }
     }
     else if (CH == 1) {
-        origin = cv::Mat(H, W, CV_8SC1);
+        origin = cv::Mat(H, W, CV_8UC1);
         const int length = H * W;
         for (int i = 0; i < length; ++i) {
             origin.data[i] = cv::saturate_cast<uchar>(255 * data[i]);

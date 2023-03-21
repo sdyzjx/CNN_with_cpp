@@ -51,14 +51,28 @@ build cmake_object_order_depends_target_CNN_with_cpp: phony || CMakeFiles/CNN_wi
 
 build CMakeFiles/CNN_with_cpp.dir/main.cpp.obj: CXX_COMPILER__CNN_with_cpp_Debug D$:/Programing/CNN_with_cpp/main.cpp || cmake_object_order_depends_target_CNN_with_cpp
   DEP_FILE = CMakeFiles\CNN_with_cpp.dir\main.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++17
+  FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -isystem D:/Program/opencv-build/MinGW-build/install/include
   OBJECT_DIR = CMakeFiles\CNN_with_cpp.dir
   OBJECT_FILE_DIR = CMakeFiles\CNN_with_cpp.dir
 
 build CMakeFiles/CNN_with_cpp.dir/src/cnn/tensor.cpp.obj: CXX_COMPILER__CNN_with_cpp_Debug D$:/Programing/CNN_with_cpp/src/cnn/tensor.cpp || cmake_object_order_depends_target_CNN_with_cpp
   DEP_FILE = CMakeFiles\CNN_with_cpp.dir\src\cnn\tensor.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++17
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -isystem D:/Program/opencv-build/MinGW-build/install/include
+  OBJECT_DIR = CMakeFiles\CNN_with_cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\CNN_with_cpp.dir\src\cnn
+
+build CMakeFiles/CNN_with_cpp.dir/src/cnn/pipeline.cpp.obj: CXX_COMPILER__CNN_with_cpp_Debug D$:/Programing/CNN_with_cpp/src/cnn/pipeline.cpp || cmake_object_order_depends_target_CNN_with_cpp
+  DEP_FILE = CMakeFiles\CNN_with_cpp.dir\src\cnn\pipeline.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -isystem D:/Program/opencv-build/MinGW-build/install/include
+  OBJECT_DIR = CMakeFiles\CNN_with_cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\CNN_with_cpp.dir\src\cnn
+
+build CMakeFiles/CNN_with_cpp.dir/src/cnn/ReLU.cpp.obj: CXX_COMPILER__CNN_with_cpp_Debug D$:/Programing/CNN_with_cpp/src/cnn/ReLU.cpp || cmake_object_order_depends_target_CNN_with_cpp
+  DEP_FILE = CMakeFiles\CNN_with_cpp.dir\src\cnn\ReLU.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -isystem D:/Program/opencv-build/MinGW-build/install/include
   OBJECT_DIR = CMakeFiles\CNN_with_cpp.dir
   OBJECT_FILE_DIR = CMakeFiles\CNN_with_cpp.dir\src\cnn
@@ -71,9 +85,9 @@ build CMakeFiles/CNN_with_cpp.dir/src/cnn/tensor.cpp.obj: CXX_COMPILER__CNN_with
 #############################################
 # Link the executable CNN_with_cpp.exe
 
-build CNN_with_cpp.exe: CXX_EXECUTABLE_LINKER__CNN_with_cpp_Debug CMakeFiles/CNN_with_cpp.dir/main.cpp.obj CMakeFiles/CNN_with_cpp.dir/src/cnn/tensor.cpp.obj | D$:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_highgui470.dll.a D$:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_ml470.dll.a D$:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_objdetect470.dll.a D$:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_photo470.dll.a D$:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_stitching470.dll.a D$:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_video470.dll.a D$:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_videoio470.dll.a D$:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_imgcodecs470.dll.a D$:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_calib3d470.dll.a D$:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_dnn470.dll.a D$:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_features2d470.dll.a D$:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_flann470.dll.a D$:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_imgproc470.dll.a D$:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_core470.dll.a
+build CNN_with_cpp.exe: CXX_EXECUTABLE_LINKER__CNN_with_cpp_Debug CMakeFiles/CNN_with_cpp.dir/main.cpp.obj CMakeFiles/CNN_with_cpp.dir/src/cnn/tensor.cpp.obj CMakeFiles/CNN_with_cpp.dir/src/cnn/pipeline.cpp.obj CMakeFiles/CNN_with_cpp.dir/src/cnn/ReLU.cpp.obj | D$:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_gapi470.dll.a D$:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_highgui470.dll.a D$:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_ml470.dll.a D$:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_objdetect470.dll.a D$:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_photo470.dll.a D$:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_stitching470.dll.a D$:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_video470.dll.a D$:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_videoio470.dll.a D$:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_imgcodecs470.dll.a D$:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_dnn470.dll.a D$:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_calib3d470.dll.a D$:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_features2d470.dll.a D$:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_flann470.dll.a D$:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_imgproc470.dll.a D$:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_core470.dll.a
   FLAGS = -g
-  LINK_LIBRARIES = D:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_highgui470.dll.a  D:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_ml470.dll.a  D:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_objdetect470.dll.a  D:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_photo470.dll.a  D:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_stitching470.dll.a  D:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_video470.dll.a  D:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_videoio470.dll.a  D:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_imgcodecs470.dll.a  D:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_calib3d470.dll.a  D:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_dnn470.dll.a  D:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_features2d470.dll.a  D:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_flann470.dll.a  D:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_imgproc470.dll.a  D:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_core470.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = D:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_gapi470.dll.a  D:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_highgui470.dll.a  D:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_ml470.dll.a  D:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_objdetect470.dll.a  D:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_photo470.dll.a  D:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_stitching470.dll.a  D:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_video470.dll.a  D:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_videoio470.dll.a  D:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_imgcodecs470.dll.a  D:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_dnn470.dll.a  D:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_calib3d470.dll.a  D:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_features2d470.dll.a  D:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_flann470.dll.a  D:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_imgproc470.dll.a  D:/Program/opencv-build/MinGW-build/install/x64/mingw/lib/libopencv_core470.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\CNN_with_cpp.dir
   POST_BUILD = cd .
   PRE_LINK = cd .

@@ -19,4 +19,7 @@ public:
 
 
 };
+using tensor = std::shared_ptr<Tensor3D>;
+//C++标准库中的智能指针，让多个std::shared_ptr共享一块动态分配的内存，在最后一个std::shared_ptr销毁时自动释放内存。
+//在需要多个所有者共享一个动态分配的对象时使用std::shared_ptr。
 #endif //CNN_WITH_CPP_TENSOR_H
