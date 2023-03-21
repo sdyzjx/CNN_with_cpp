@@ -3,6 +3,7 @@
 //
 #include "architectures.h"
 using namespace architectures;
+<<<<<<< HEAD
 std::vector<tensor> ReLU::forward(const std::vector<tensor>& input) {
     const int batch_size = input.size();
     if (output.empty()) {
@@ -11,4 +12,9 @@ std::vector<tensor> ReLU::forward(const std::vector<tensor>& input) {
             this->output.emplace_back(new Tensor3D(input[0]->C, input[0]->H, input[0]->W));
         }
     }
+=======
+std::vector<tensor> forward(const std::vector<tensor>& input) {
+    const int batch_size = input.size();
+    if (output.empty())
+>>>>>>> origin/master
 }
